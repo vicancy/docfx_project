@@ -1,6 +1,6 @@
 image: Visual Studio 2017
 build_script:
-- ps: >-
+- ps: |
     & nuget install docfx.console -Version 2.18.4 -Source https://www.myget.org/F/docfx/api/v3/index.json
     & docfx.console.2.18.4\tools\docfx docfx.json
     # & docfx docfx.json
